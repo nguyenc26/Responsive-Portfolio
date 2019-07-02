@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    background: url(../images/memphis-mini-dark.png);
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    padding: 0 20px 0 20px;
+    margin-bottom: 25px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.headerclass{
+    width: 960px;
+    margin-left: auto;
+    margin-right: 19%;
+}
+
+.name {
+    float:left; 
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px; 
+    font-size: 1.5em; 
+}
+
+nav {
+    float: right;
+    padding: 20px;
+}
+
+.content {
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    padding: 20px 20px 70px 20px;
+    margin: 90px auto 0 auto;
+    float: right;
+    position: relative;
+    right: 19.8%;
+}
+
+h2 { 
+    color: #4aaaa5;
+    font-display: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    float: left;
+    padding: 10px;
+}
+
+.bio {
+    padding: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.containertext {
+    text-align: center;
+    color: white;
+}
+.leftbox {
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px; 
+    width: 240px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 10px;
+}
+
+.rightbox {
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px; 
+    width: 240px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 270px;
+}
+
+.form {
+    font-size: 1.25em; 
+}
+
+.box { 
+    width: 100%;
+}
+
+.box2 {
+    width: 100%;
+    height: 200px;
+}
+
+.button{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px; 
+    font-size: 1em;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+//Media Queries
+
+@media screen and (max-width:980px) {
+    .content {
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content {
+        
+}
+
+@media screen and (max-width:640px) {
+
+}
