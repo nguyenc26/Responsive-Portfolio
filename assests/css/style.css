@@ -130,18 +130,13 @@ footer {
 }
 
 @media screen and (max-width:980px) {
-    .content {
-        background-color: red;
-        
-
+    .aboutme {
+        width:600px;
     }
 }
 
 @media screen and (max-width:768px) {
-    .content {
-
-    }
-        
+            
 }
 
 @media screen and (max-width:640px) {
